@@ -5,6 +5,7 @@ import Recommend from '@/views/Recommend'
 import Rank from '@/views/Rank'
 import Search from '@/views/Search'
 import Category from '@/views/Category'
+import Movie from '@/views/Movie'
 Vue.use(Router)
 
 export default new Router({
@@ -31,7 +32,12 @@ export default new Router({
     {
       path:'/search',
       name:'Search',
-      component:Search
+      component: Search
+    },
+    {
+      path: '/movie/:id',
+      name: 'Movie',
+      component: Movie
     }
   ]
 })

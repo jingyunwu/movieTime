@@ -14,6 +14,7 @@
 </template>
 
 <script>
+import '../../iconfont/font_p1ci99rlir/iconfont.css'
 export default {
   props: {
     status: {

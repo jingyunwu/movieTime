@@ -98,6 +98,7 @@
 </template>
 
 <script>
+import '../../iconfont/font_p1ci99rlir/iconfont.css'
 import axios from "axios";
 import ScrollView from '@/components/ScrollView'
 export default {
@@ -176,8 +177,8 @@ export default {
       position absolute
       top 15px
       left 15px
-      font-size 25px
-      color #fff
+      font-size 20px
+      // color #fff
       font-weight bold
   .info-wrapper
     position relative
@@ -206,7 +207,7 @@ export default {
         color #777
         .text
           font-size 15px
-        .icon
+        .iconfont
           font-weight bold
           vertical-align text-bottom
           line-height 20px

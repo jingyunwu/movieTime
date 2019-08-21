@@ -55,6 +55,7 @@
 </template>
 
 <script>
+import '../../iconfont/font_p1ci99rlir/iconfont.css'
 import SizerCategory from '@/components/SizerCategory'
 import SizerType from '@/components/SizerType'
 import SizerRate from '@/components/SizerRate'
@@ -174,7 +175,7 @@ export default {
         top 10px
         left 0
         border-left 1px solid #e8e8e8
-      .icon
+      .iconfont
         font-size 12px
   .tab-content
       position absolute

@@ -1,21 +1,4 @@
-# movietime
-
-> A Vue.js project
-
-## Build Setup
-
-``` bash
-# install dependencies
-npm install
-
-# serve with hot reload at localhost:8080
-npm run dev
-
-# build for production with minification
-npm run build
-
-# build for production and view the bundle analyzer report
-npm run build --report
-```
-
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+- 首页推荐正在上映、即将上映的电影
+- 通过分类、上映状态、评分区间进行筛选电影
+- 通过搜索进行筛选电影、搜索历史通过localStorage存储
+- 电影详情短片播放、相关电影推荐、剧情简介
